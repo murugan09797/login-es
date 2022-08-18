@@ -1,38 +1,122 @@
-.App {
-  text-align: center;
-}
+.maincard{
+    height: 100vh;
+    /* padding-top: 15px; */
+    width: 100%;
+    background-color: azure;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    /* background-color: black;
+      */ margin: auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      /* background-image: url("/public/images/carwithwater.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover */
+    }
+    
+    
+    .maincard2 {
+    height: 519px;
+    /* padding-top: 15px; */
+    width: 80%;
+    background-color: #e9f2f2;
+    margin: auto;
+    display: flex;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  .containar1{
+    width:50%;
+    background-color: azure;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .containar2{
+    width:50%;
+    background-color:#42A6A1;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  
+  
+  }
+  .userfields{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 79%;
+    align-items: center;
+    padding-top: 20px;
+  }
+  
+  .labelStyles{
+    font-size: 18px;
+    color:white
+  }
+  .inputstyles{
+    height: 30px;
+    width: 376px;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid white;
+    color: white;
+    position: relative;
+    font-size: 20px;
+  }
+  .input1{
+    padding-bottom: 26px;
+    color: white;
+  }
+  .forgotPassword{
+  /* color:white; */
+  justify-content: flex-end;
   display: flex;
-  flex-direction: column;
+  padding-top: 23px;
+  }
+  
+  
+  .header{
+    display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  padding-top: 25px;
+  /* color: white; */
   }
-  to {
-    transform: rotate(360deg);
+  
+  .buttonStyles{
+    height: 45px;
+    width: 70%;
+    border-radius: 29px;
+    background-color:#36B78E;
+    /* color: white; */
+    font-size: 17px;
+    border-width: 0;
+    font-weight: 600;
   }
-}
+  .signinbutton{
+    display: flex;
+      align-items: center;
+      justify-content: center;
+      padding-top: 38px;
+  }
+  
+  .account{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 41px;
+  /* color: white; */
+  
+  }
+  .signin{
+    /* color: white; */
+  }
+  #standard-basic{
+    position: relative;
+  }
+   
+  
+  
