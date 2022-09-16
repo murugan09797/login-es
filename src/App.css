@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 .maincard{
     height: 100vh;
     /* padding-top: 15px; */
@@ -13,9 +17,7 @@
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover */
-    }
-    
-    
+    } 
     .maincard2 {
     height: 519px;
     /* padding-top: 15px; */
@@ -34,7 +36,7 @@
   }
   .containar2{
     width:50%;
-    background-color:#42A6A1;
+    background-color:darkturquoise;
     height: 100%;
     display: flex;
     align-items: center;

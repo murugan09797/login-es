@@ -25,7 +25,7 @@ const Login = () => {
             [name + "Error"]: data.error,
         }));
     };
- 
+
     const handleCilck = async (e) => {
         let validData = state.userNameValid && state.passwordValid
         if (validData) {
